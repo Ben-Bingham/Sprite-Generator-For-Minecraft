@@ -31,4 +31,4 @@ java -jar SpriteGeneratorMaven-1.0.jar --color 87 15 20 --name ruby
 * This tool does not create a texture with the exact same colour has the one inputed.
 * Darker colours will give you better results.
 * To add more images to make sprites off of, simply add them to the `scr/main/resources/Input` and than recompile the project with Maven. (Note you will need Maven installed to recompile the project.) 
-* Java needs to be installed on your system to use this tool, Java 16 is the only version I have tested.
+* Java needs to be installed on your system to use this tool. I have been able to test and the latest `.jar` works with both Java 16 and Java 8, I have not tested any other versions but I'd have to assume it would work with Java 9-15
